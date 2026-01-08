@@ -1,2 +1,2 @@
 vm-size = "t2.small"
-vm-name = "satyagit-vm001"
+vm-name = "satyagit-vm001-day3"
