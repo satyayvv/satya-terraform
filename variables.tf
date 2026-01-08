@@ -15,3 +15,7 @@ variable "vm-name" {
     #default = "satya-vm1"
   
 }
+variable "novm" {
+  type = number
+  description = "this is for number of vm to be created"
+}

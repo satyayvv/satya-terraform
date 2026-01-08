@@ -1,7 +1,7 @@
 output "satya-vm-publicIP" {
-  value = aws_instance.example.public_ip
+  value = aws_instance.example.*.public_ip
 }
 
 output "satya-vm-id" {
-  value = aws_instance.example.id
+  value = [ for i in aws_instance.example: i.id ]
 }
